@@ -1,0 +1,108 @@
+
+.card {
+    width: 90%;
+    margin: 2rem auto ;
+    display: grid;
+    grid-template-columns: minmax(200px, 500px)  1fr;
+    grid-template-rows: minmax(200px, 500px);
+}
+
+.card--alternate {
+    width: 90%;
+    margin: 2rem auto ;
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, 500px);
+    grid-template-rows: minmax(200px, 500px);
+} 
+
+/*  card with alternates */
+.card__img-wrapper {
+    grid-column: 1/ 2;
+    grid-row: 1/2;
+}
+
+.card__img-wrapper--alternate {
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+}
+
+.card__info-container {
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+}
+
+.card__info-container--alternate {
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+}
+
+.card__info-container, .card__info-container--alternate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+/* card__img */
+.card__img-container, .card__img-container--alternate {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+}
+
+.card__img-container::before, 
+.card__img-container::after, 
+.card__img-container--alternate::before, 
+.card__img-container--alternate::after {
+    content: "";
+    height: 2vw;
+    width: 5vw;
+    position: absolute;
+}
+
+.card__img-container::before{
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(-1.5vw, 0.5vw) rotate(-45deg) scaleX(1.5) ;
+}
+
+.card__img-container::after {
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(1.5vw, -0.5vw) rotate(-45deg) scaleX(1.5) ;
+}
+
+.card__img-container__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* card-img alternate */
+.card__img-container--alternate::before{
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(-1.5vw, 0.5vw) rotate(45deg) scaleX(1.5) ;
+}
+
+.card__img-container--alternate::after {
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(1.5vw, -0.5vw) rotate(45deg) scaleX(1.5) ;
+}
+
+@media (max-width: 700px) {
+    
+}
+
+
+
