@@ -4,9 +4,6 @@ import './imgcard.css'
 const ImgCard = (props) => {
   return (
     <div className={props.alternate ? 'card--alternate' : 'card'}>
-      {props.alternate
-
-      }
         <div className={props.alternate ? 'card__img-wrapper--alternate' : 'card__img-wrapper'}>
             <div className={props.alternate ? 'card__img-container--alternate' : 'card__img-container'}>
                 <img className='card__img-container__img' src={props.img} alt={props.alt}/>
@@ -21,3 +18,6 @@ const ImgCard = (props) => {
 }
 
 export default ImgCard
+
+//9
+// 1.30

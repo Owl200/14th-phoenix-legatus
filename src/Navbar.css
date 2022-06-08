@@ -9,6 +9,12 @@ nav > ul {
     padding-inline-start: 0;
 }
 
+#nav--sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
 #nav__list {
     display:flex;
     width: 100%;
@@ -18,9 +24,13 @@ nav > ul {
 }
 
 #nav__list  li {
-    font-weight: 600;
     border-left: 2px solid black;
     padding: 0 1.5rem;
+}
+
+.nav__list-item {
+    font-weight: 600;
+    font-size: calc(10px + 1vw);
 }
 
 #nav__list > li:first-child {
@@ -28,18 +38,14 @@ nav > ul {
 }
 
 #nav_mini {
-    position: absolute;
+    position: fixed;
     border-radius: 5px;
-    background-color: rgb(218, 165, 32, 0.75);
+    background-color: rgba(218, 165, 32, 0.749);
     z-index: 1000;
     width: 90%;
-    top: 50%;
+    bottom: 2rem;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#nav__list-mini {
-    list-style: none;
+    transform: translate(-50%, 0%);
 }
 
 #nav__list-mini {
@@ -47,30 +53,52 @@ nav > ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    list-style: none;
 }
 
 #nav__list-mini > li {
-    padding: 0.5rem 0;
+    padding: 1rem;
     width: 100%;
     border-bottom: 2px solid black;
 }
 
 #nav__list-mini > li:last-child {
     border-bottom: none;
+    margin-bottom: 2rem;
 }
 
 #nav__button, #nav__list-mini-button--clicked{
     position: fixed;
+    z-index: 3000;
     border-radius: 50%;
-    top: 2rem;
+    bottom: 2rem;
     right: 2rem;
-    padding: 0 0.5rem;
+    padding: 0 0.83rem;
     background-color: darkgoldenrod;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #nav__list-mini-button--clicked {
     transform: rotateZ(45deg);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
+}
+
+#nav__list-mini > a {
+    padding: 1rem auto;
+}
+
+
+.active .nav__list-item{
+    color: black;
+    background: linear-gradient(90deg, rgba(184,134,11,1) 0%, rgba(228,199,174,1) 20%, rgba(228,199,174,1) 80%, rgba(184,134,11,1) 100%);
+    padding: 0 1.5rem;
+}
+
+.active {
+    color: black;
+    font-weight: 900;
 }
 
 @media (max-width: 700px) {
