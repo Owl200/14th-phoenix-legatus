@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@300&display=swap');
+
 .App {
   text-align: center;
 }
@@ -15,14 +17,41 @@
   color: white;
 }
 
-.header__h1 {
+.language-div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem;
   display: flex;
-  align-self: center;
-  font-size: 8rem;
+  flex-direction: row;
+}
+
+.language-separator {
+  height: auto;
+  width: 3px;
+  background-color: black;
+}
+
+.language-div__img {
+  height: calc(16px + 3vw);
+  filter: grayscale(1)
+}
+
+.language-div__img.active-language {
+  filter: grayscale(0)
+}
+
+.header__h1, .header__h2 {
+  font-family: 'Playfair Display SC', 'sans-serif';
+  text-shadow: 5px 5px 3px black;
+}
+
+.header__h1 {
+  font-size: calc(14px + 6vw);
 }
 
 .header__h2 {
-  font-size: 3.5rem;
+  font-size: calc(10px + 2vw);
 }
 
 main {
@@ -40,7 +69,7 @@ section {
   overflow-x: clip;
 }
 
-@media (max-width: 1700px) {
+/* @media (max-width: 1700px) {
   .header__h1 {
     font-size: 7rem;
   }
@@ -74,11 +103,9 @@ section {
   .header__h2 {
     font-size: 1rem;
   }
-}
+} */
 
 footer {
   font-weight: 500;
 
 }
-
-
