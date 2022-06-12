@@ -15,3 +15,4 @@ This is a work in progress website for the Free Company (guild) "14th Phoenix Le
 - add a different font for the header text
 - add content to the "home", "ranks" and "contact-us" pages
 - add toggle to get spanish or english website
+- add favicon 
