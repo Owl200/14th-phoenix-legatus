@@ -7,7 +7,7 @@ import './Navbar.css'
 //variants for the nav background
 const sidebar = {
   open: (height = 1000) => ({
-    clipPath: `circle(${height * 2 + 200}px at calc(100% - 38px) calc(100% - 47px))`,
+    clipPath: `circle(${height * 2 + 200}px at calc(100% - 49px) calc(100% - 50px))`,
     transition: {
       type: "spring",
       stiffness: 20,
@@ -15,7 +15,7 @@ const sidebar = {
     }
   }),
   closed: {
-    clipPath: "circle(30px at calc(100% - 38px) calc(100% - 47px))",
+    clipPath: "circle(30px at calc(100% - 49px) calc(100% - 50px))",
     transition: {
       delay: 0.5,
       type: "spring",
@@ -80,7 +80,7 @@ const Navbar = () => {
   }
 
   return (
-    <>
+    <div className='nav-wrapper'>
     { (windowSize >= '700')  ?
     <nav id='nav--sticky'>
         <ul id='nav__list'>
@@ -94,7 +94,7 @@ const Navbar = () => {
     <>
       <motion.nav id='nav_mini' initial={false} animate={isOpen ? "open" : "closed"} >
         <motion.button id='nav__button' onClick={handleClick} >
-          <svg width='23' height='23' viewbox='0 0 23 23' >
+          <svg width='23' height='23' viewBox='0 0 23 23' >
             <Path variants={ {closed: { d: "M 2 2.5 L 20 2.5" }, open: { d: "M 3 16.5 L 17 2.5" }} }/>
             <Path d="M 2 9.423 L 20 9.423" variants={ { closed: { opacity: 1 }, open: { opacity: 0 }} } transition={{ duration: 0.1 }}/>
             <Path variants={ {closed: { d: "M 2 16.346 L 20 16.346" }, open: { d: "M 3 2.5 L 17 16.346" }} }/>
@@ -121,7 +121,7 @@ const Navbar = () => {
       </motion.nav>
     </>
   }
-  </>
+  </div>
   )
 }
 

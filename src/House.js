@@ -10,6 +10,8 @@ import workshop from './images/workshop.png'
 
 
 const House = () => {
+
+
   return (
     <>
         <h2>En nuestra casa contamos con:</h2>

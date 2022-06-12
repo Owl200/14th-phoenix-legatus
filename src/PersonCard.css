@@ -1,0 +1,106 @@
+
+.person-card {
+    position: relative;
+    width: 90%;
+    margin: 2rem auto ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-template-rows: minmax(200px, 1fr);
+}
+
+/*  card images */
+.person-card__image-wrapper {
+    grid-column: 1/ 2;
+    grid-row: 1/2;
+    aspect-ratio:1/1 ;
+    overflow: hidden;
+}
+
+.person-card__image-mask {
+    -webkit-mask-image: url(./images/phoenix-mask.png);
+    mask-image: url(./images/phoenix-mask.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: 250%;
+    mask-position: center;
+    border-radius: 10px;
+}
+
+
+
+
+.person-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+/* card info*/
+.person-card__info {
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.person-card__ul {
+    padding-inline-start: 0px;
+}
+
+.person-card__ul > li{
+    list-style-type: none;
+    list-style: none;
+    text-align: justify;
+    margin-bottom: 0.5rem;
+}
+
+.person-card__span {
+    font-weight: 900;
+}
+
+@media (max-width: 700px) {
+
+    .person-card__image-wrapper {
+        grid-column: 1/ 2;
+        grid-row: 1/2
+    }
+    .person-card__info {
+        grid-column: 1/ 2;
+        grid-row: 2/3;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 3rem 3rem 3rem;
+    }
+
+}
+
+
+
+/* .person-card__image-container::before, 
+.card__img-container::after {
+    content: "";
+    height: 4vh;
+    width: 9vh;
+    position: absolute;
+}
+
+.person-card__image-container::before{
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-2.5vh, 0.5vh) rotate(-45deg) scaleX(1.5) ;
+}
+
+.person-card__image-container::after {
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(2.5vh, -0.5vh) rotate(-45deg) scaleX(1.5) ;
+} */
