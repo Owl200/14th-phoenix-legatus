@@ -11,16 +11,16 @@ const PersonCard = (props) => {
   
     useEffect( _ => {
       inView ? animation.start({
-        opacity: 1, 
-        scale: 1,
+        x: 0, 
+        opacity: 1,
         transition: {
-            ease: 'easeIn', 
-            duration: 2 
+            type: 'spring', 
+            duration: 0.5 
         }
       }) :
       animation.start({
-        opacity: 0, 
-        scale: 1 
+        x: -400, 
+        opacity: 0,
       })
   
     }, [inView, animation])
@@ -41,14 +41,15 @@ const PersonCard = (props) => {
 
   return (
     <div className='person-card'>
-        <div className='person-card__image-wrapper'>
-            <motion.div ref={ref} animate={animation}  className='person-card__image-mask'>
-                    <motion.img  className='person-card__img' src={data.thumbnail} alt={`${data.name.split(' ')[0]}'s thumbnail`}/>
+        <div ref={ref} className='person-card__image-wrapper'>
+            <motion.div  animate={animation}  className='person-card__image-mask'>
+                <motion.img  animate={{x: 0}} initial={{x: 0}} className='person-card__img' src={data.thumbnail} alt={`${data.name.split(' ')[0]} thumbnail`}/>
             </motion.div>
         </div>
         <div className='person-card__info'>
-            <h3>{data.name}</h3>
-            <h2>{data.phrase}</h2>
+            <h2>{data.name}</h2>
+            <h3>{data.phrase}</h3>
+            <br/>
             <ul className='person-card__ul'>
                 <li><span className='person-card__span'>Mis Jobs favoritos: </span>{data.jobs.join(', ')}</li>
                 <li><span className='person-card__span'>Mis intereses: </span>{data.interests.join(', ')}</li>

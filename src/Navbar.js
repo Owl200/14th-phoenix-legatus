@@ -66,7 +66,6 @@ const Path = props => (
 
 const Navbar = () => {
   const [windowSize, setWindowSize] = useState(window.innerWidth)
-  //const [navIsVisible, setNavIsVisible] = useState(false)
   const [isOpen, toggleOpen] = useCycle(false, true)
 
   //gets the current windos size to check on what type of nav will be rendered

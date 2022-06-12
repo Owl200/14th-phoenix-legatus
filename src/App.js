@@ -29,7 +29,7 @@ const App = () => {
         </section>
       </main>
       <footer>
-        <p>2022</p>
+        <p>2022 What your own personalized website? You can find me here.</p>
       </footer>
     </div>
   );

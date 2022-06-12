@@ -17,17 +17,15 @@
 }
 
 .person-card__image-mask {
-    -webkit-mask-image: url(./images/phoenix-mask.png);
-    mask-image: url(./images/phoenix-mask.png);
+    -webkit-mask-image: url(./images/black-ink.png);
+    mask-image: url(./images/black-ink.png);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    mask-size: 250%;
+    mask-size: 110% 160%;
     mask-position: center;
     border-radius: 10px;
+    overflow-x: hidden;
 }
-
-
-
 
 .person-card__img {
     width: 100%;

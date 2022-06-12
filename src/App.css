@@ -30,10 +30,13 @@ main {
   height:max-content;
   max-width: 1200px;
   margin: 1rem auto;
+  position: relative;
+  min-height: calc(100vh - 40vh);
 }
 
 section {
   padding: 1rem;
+  padding-bottom: 2.5rem;
   overflow-x: clip;
 }
 
@@ -75,6 +78,7 @@ section {
 
 footer {
   font-weight: 500;
+
 }
 
 
