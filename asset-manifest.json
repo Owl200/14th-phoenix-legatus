@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/14th-phoenix-legatus/static/css/main.b0dfd3e7.css",
-    "main.js": "/14th-phoenix-legatus/static/js/main.f3583025.js",
+    "main.css": "/14th-phoenix-legatus/static/css/main.818b5d4c.css",
+    "main.js": "/14th-phoenix-legatus/static/js/main.0bc4e137.js",
     "static/js/787.c68d1f98.chunk.js": "/14th-phoenix-legatus/static/js/787.c68d1f98.chunk.js",
     "static/media/header-image.png": "/14th-phoenix-legatus/static/media/header-image.b8c34ad62dbe39494d90.png",
     "static/media/establo.png": "/14th-phoenix-legatus/static/media/establo.00d79bc1bbc2fcfd8304.png",
     "static/media/dummy.png": "/14th-phoenix-legatus/static/media/dummy.27c8f7d66960bedd0945.png",
     "static/media/granja.png": "/14th-phoenix-legatus/static/media/granja.82637933fc15f0509b36.png",
     "static/media/bar.png": "/14th-phoenix-legatus/static/media/bar.77ed8ec1db8cac3ddb64.png",
+    "static/media/luna.png": "/14th-phoenix-legatus/static/media/luna.7608aabf01ef9f7ad8c7.png",
     "static/media/mesas.png": "/14th-phoenix-legatus/static/media/mesas.7a01ae35014fdc02317d.png",
     "static/media/owli.png": "/14th-phoenix-legatus/static/media/owli.a778f91890277937e70f.png",
     "static/media/workshop.png": "/14th-phoenix-legatus/static/media/workshop.0a86ec029120d70c8eac.png",
     "static/media/saucer.png": "/14th-phoenix-legatus/static/media/saucer.9ded61c183295fb1faba.png",
+    "static/media/raynie.png": "/14th-phoenix-legatus/static/media/raynie.f47778fde5ddd0185621.png",
+    "static/media/community_card.png": "/14th-phoenix-legatus/static/media/community_card.b4b5ce12bcf20f968326.png",
     "static/media/black-ink.png": "/14th-phoenix-legatus/static/media/black-ink.fa5669ac6f8f994bdfbf.png",
     "index.html": "/14th-phoenix-legatus/index.html",
-    "main.b0dfd3e7.css.map": "/14th-phoenix-legatus/static/css/main.b0dfd3e7.css.map",
-    "main.f3583025.js.map": "/14th-phoenix-legatus/static/js/main.f3583025.js.map",
+    "main.818b5d4c.css.map": "/14th-phoenix-legatus/static/css/main.818b5d4c.css.map",
+    "main.0bc4e137.js.map": "/14th-phoenix-legatus/static/js/main.0bc4e137.js.map",
     "787.c68d1f98.chunk.js.map": "/14th-phoenix-legatus/static/js/787.c68d1f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0dfd3e7.css",
-    "static/js/main.f3583025.js"
+    "static/css/main.818b5d4c.css",
+    "static/js/main.0bc4e137.js"
   ]
 }
