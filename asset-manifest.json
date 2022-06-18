@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/14th-phoenix-legatus/static/css/main.38c7ef52.css",
-    "main.js": "/14th-phoenix-legatus/static/js/main.218108f6.js",
+    "main.css": "/14th-phoenix-legatus/static/css/main.4a10fde7.css",
+    "main.js": "/14th-phoenix-legatus/static/js/main.77e9f88c.js",
     "static/js/787.c68d1f98.chunk.js": "/14th-phoenix-legatus/static/js/787.c68d1f98.chunk.js",
     "static/media/header-image.png": "/14th-phoenix-legatus/static/media/header-image.b8c34ad62dbe39494d90.png",
     "static/media/establo.png": "/14th-phoenix-legatus/static/media/establo.00d79bc1bbc2fcfd8304.png",
@@ -10,23 +10,28 @@
     "static/media/thumb-inicio.png": "/14th-phoenix-legatus/static/media/thumb-inicio.7e57644fc76b218247ac.png",
     "static/media/bar.png": "/14th-phoenix-legatus/static/media/bar.77ed8ec1db8cac3ddb64.png",
     "static/media/luna.png": "/14th-phoenix-legatus/static/media/luna.7608aabf01ef9f7ad8c7.png",
+    "static/media/mapas.png": "/14th-phoenix-legatus/static/media/mapas.5efd6f5f88828fb887fc.png",
     "static/media/mesas.png": "/14th-phoenix-legatus/static/media/mesas.7a01ae35014fdc02317d.png",
+    "static/media/farmeo.png": "/14th-phoenix-legatus/static/media/farmeo.1e086ea659a8c50b65fb.png",
     "static/media/owli.png": "/14th-phoenix-legatus/static/media/owli.a778f91890277937e70f.png",
     "static/media/workshop.png": "/14th-phoenix-legatus/static/media/workshop.0a86ec029120d70c8eac.png",
     "static/media/saucer.png": "/14th-phoenix-legatus/static/media/saucer.9ded61c183295fb1faba.png",
+    "static/media/daily.png": "/14th-phoenix-legatus/static/media/daily.a2b72c6557715a30bc4f.png",
     "static/media/raynie.png": "/14th-phoenix-legatus/static/media/raynie.f47778fde5ddd0185621.png",
     "static/media/velkan.png": "/14th-phoenix-legatus/static/media/velkan.df56a2d6a7760901b6d4.png",
+    "static/media/cirilla.png": "/14th-phoenix-legatus/static/media/cirilla.1a5ee18e51ba3b53e0a1.png",
     "static/media/arturya.png": "/14th-phoenix-legatus/static/media/arturya.b63feb4e52a077451377.png",
-    "static/media/community_card.png": "/14th-phoenix-legatus/static/media/community_card.b4b5ce12bcf20f968326.png",
     "static/media/ultimate.jpg": "/14th-phoenix-legatus/static/media/ultimate.68e39229017c6ee2c0c7.jpg",
     "static/media/black-ink.png": "/14th-phoenix-legatus/static/media/black-ink.fa5669ac6f8f994bdfbf.png",
+    "static/media/laguna.jpg": "/14th-phoenix-legatus/static/media/laguna.cb4268bd36f0db47f0a8.jpg",
+    "static/media/unknown.png": "/14th-phoenix-legatus/static/media/unknown.d1c67bf2edf659de86c1.png",
     "index.html": "/14th-phoenix-legatus/index.html",
-    "main.38c7ef52.css.map": "/14th-phoenix-legatus/static/css/main.38c7ef52.css.map",
-    "main.218108f6.js.map": "/14th-phoenix-legatus/static/js/main.218108f6.js.map",
+    "main.4a10fde7.css.map": "/14th-phoenix-legatus/static/css/main.4a10fde7.css.map",
+    "main.77e9f88c.js.map": "/14th-phoenix-legatus/static/js/main.77e9f88c.js.map",
     "787.c68d1f98.chunk.js.map": "/14th-phoenix-legatus/static/js/787.c68d1f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38c7ef52.css",
-    "static/js/main.218108f6.js"
+    "static/css/main.4a10fde7.css",
+    "static/js/main.77e9f88c.js"
   ]
 }
