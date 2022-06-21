@@ -1,12 +1,9 @@
 .nav-wrapper {
     margin-bottom: 1rem;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 9999;
-}
-
-nav > ul {
-    padding-inline-start: 0;
 }
 
 #nav--sticky {
@@ -15,6 +12,11 @@ nav > ul {
     border: 2px solid black;
     background: darkgoldenrod;
 }
+
+nav > ul {
+    padding-inline-start: 0;
+}
+
 
 #nav__list {
     display:flex;
@@ -40,8 +42,6 @@ nav > ul {
 
 #nav_mini {
     position: fixed;
-    /* border-radius: 5px; */
-    /* background-color: rgba(218, 165, 32, 0.749); */
     z-index: 1000;
     width: 90%;
     bottom: 2rem;
@@ -120,6 +120,3 @@ nav > ul {
     font-weight: 900;
 }
 
-@media (max-width: 700px) {
-    
-}

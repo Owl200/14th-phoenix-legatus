@@ -17,7 +17,7 @@ const About = () => {
     {      
       thumbnail: ryonia,
       name: 'Ryo Nya (Fenix Flammer)',
-      phrase: '"SUCH DEVASTATION... "',
+      phrase: '"SUCH DEVASTATION..."',
       jobs: ['Warrior', 'Dancer', 'White Mage', 'Scholar'],
       interests: ['Hacer la mayor cantidad de contenido disponible'],
       trials: [`Minstrel Ballad: Shinryu's domain`, `Tsukuyomi's Pain`],
@@ -94,7 +94,7 @@ const About = () => {
     {      
       thumbnail: hans,
       name: 'Hanstein Zlatasch (Fenix)',
-      phrase: `"Hear - the song at creation's end. Feel - the agony of hope's demise. Think - and find your way in the darkness. "`,
+      phrase: `"Hear - the song at creation's end. Feel - the agony of hope's demise. Think - and find your way in the darkness."`,
       jobs: ['Summoner', 'Black Mage', 'Gunbreaker', 'Samurai', 'Monk', 'Machinist', 'Astrologian'],
       interests: ['MSQ, Lore, RP, Daily Roulette, Maps, Trials, Dungeons, etc.'],
       trials: ['The Final Day', 'The Mothercrystal', 'The Dark Inside', 'The Seat of Sacrifice', 'The Dying Gasp', 'The Singularity Reactor'],
