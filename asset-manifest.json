@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/14th-phoenix-legatus/static/css/main.4a10fde7.css",
-    "main.js": "/14th-phoenix-legatus/static/js/main.add5e822.js",
+    "main.css": "/14th-phoenix-legatus/static/css/main.288afef6.css",
+    "main.js": "/14th-phoenix-legatus/static/js/main.3d734f09.js",
     "static/js/787.c68d1f98.chunk.js": "/14th-phoenix-legatus/static/js/787.c68d1f98.chunk.js",
     "static/media/header-image.png": "/14th-phoenix-legatus/static/media/header-image.b8c34ad62dbe39494d90.png",
     "static/media/establo.png": "/14th-phoenix-legatus/static/media/establo.00d79bc1bbc2fcfd8304.png",
@@ -28,12 +28,12 @@
     "static/media/laguna.jpg": "/14th-phoenix-legatus/static/media/laguna.cb4268bd36f0db47f0a8.jpg",
     "static/media/unknown.png": "/14th-phoenix-legatus/static/media/unknown.d1c67bf2edf659de86c1.png",
     "index.html": "/14th-phoenix-legatus/index.html",
-    "main.4a10fde7.css.map": "/14th-phoenix-legatus/static/css/main.4a10fde7.css.map",
-    "main.add5e822.js.map": "/14th-phoenix-legatus/static/js/main.add5e822.js.map",
+    "main.288afef6.css.map": "/14th-phoenix-legatus/static/css/main.288afef6.css.map",
+    "main.3d734f09.js.map": "/14th-phoenix-legatus/static/js/main.3d734f09.js.map",
     "787.c68d1f98.chunk.js.map": "/14th-phoenix-legatus/static/js/787.c68d1f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a10fde7.css",
-    "static/js/main.add5e822.js"
+    "static/css/main.288afef6.css",
+    "static/js/main.3d734f09.js"
   ]
 }
