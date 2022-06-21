@@ -9,6 +9,7 @@ import cirilla from './images/cirilla.png'
 import laguna from './images/laguna.jpg'
 import kida from './images/kida1.png'
 import ryonia from './images/ryonia.png'
+import hans from './images/hans.png'
 
 const About = () => {
   
@@ -89,7 +90,18 @@ const About = () => {
       dungeons: ['Amaurot', 'The Twinning', 'The Antitower', 'Pharos Sirius'],
       raids: [`Eden's Verse: Refulgence`, `The Weeping City`, `Bahamut turn 4`],
       description: 'Soy culpable del vicio de muchos'
-      }, 
+    }, 
+    {      
+      thumbnail: hans,
+      name: 'Hanstein Zlatasch (Fenix)',
+      phrase: `"Hear - the song at creation's end. Feel - the agony of hope's demise. Think - and find your way in the darkness. "`,
+      jobs: ['Summoner', 'Black Mage', 'Gunbreaker', 'Samurai', 'Monk', 'Machinist', 'Astrologian'],
+      interests: ['MSQ, Lore, RP, Daily Roulette, Maps, Trials, Dungeons, etc.'],
+      trials: ['The Final Day', 'The Mothercrystal', 'The Dark Inside', 'The Seat of Sacrifice', 'The Dying Gasp', 'The Singularity Reactor'],
+      dungeons: [`The Dead Ends`, `Amaurot`, `The Aitiascope`, `Ktisis Hyperboreia`, `The Heroes' Gauntlet`, `The Twinning`],
+      raids: ['Aglaia', 'Omega: Sigmascape', 'Ivalice Raids', 'Omega Raids', 'Alexander Raids'],
+      description: `Vivo por la historia y el lore pero mi disfrute es compartir con los amigos que hice en el camino.`
+    },
     {      
       thumbnail: owli,
       name: 'Owli Yggdra (Fenix)',
