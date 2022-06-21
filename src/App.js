@@ -1,10 +1,11 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
 import Navbar from './Navbar';
 import Home from './Home';
 import House from './House';
 import About from './About'
-import Ranks from './Ranks'
+import Activities from './Activities'
 import Contact from './Contact'
 
 const App = () => {
@@ -12,8 +13,8 @@ const App = () => {
     <div className="App">
       <Link to='/'>
         <header className="header">
-          <h1 className='header__h1'>14th Phoenix Legatus</h1>
-          <h2 className='header__h2'>Una Free Company de Final Fantasy XIV</h2>
+          <motion.h1 initial={{y: -50, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{type: 'spring', mass: 1}} className='header__h1'>14th Phoenix Legatus</motion.h1>
+          <motion.h2 initial={{y: 650, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{type: 'spring', mass: 0.5, delay: 1.5}} className='header__h2'>Una Free Company de Final Fantasy XIV</motion.h2>
         </header>
       </Link>
       <Navbar/>
@@ -23,14 +24,11 @@ const App = () => {
             <Route path='/' element={<Home/>} exact/>
             <Route path='/about-us' element={<About/>}/>
             <Route path='/house' element={<House/>}/>
-            <Route path='/ranks' element={<Ranks/>}/>
+            <Route path='/activities' element={<Activities/>}/>
             <Route path='/contact-us' element={<Contact/>}/>
           </Routes>
         </section>
       </main>
-      <footer>
-        <p>2022 What your own personalized website? You can find me here.</p>
-      </footer>
     </div>
   );
 }

@@ -21,11 +21,11 @@ const House = () => {
         <br/>
         <ImgCard img={granja} alternate={false} alt={'nuestra granja'} title={'Jardineria'} info={'Si quieres siempre tener las cebollas mas frescas, este es el sitio ideal para ti!'} />
         <br/>
-        <ImgCard img={establo} alternate={true} alt={'nuestra establo'} title={'Establo'} info={'Quieres darle a tu chocobo los mejores cuidados, nosotros amamos los chocobos ajenos tanto como los nuestros. Siempre estara siendo entrenado con nosotros!'} />
+        <ImgCard img={establo} alternate={true} alt={'nuestra establo'} title={'Establo'} info={'Quieres darle a tu chocobo los mejores cuidados? Nosotros amamos los chocobos ajenos tanto como los nuestros. Siempre estara siendo entrenado con nosotros!'} />
         <br/>
         <ImgCard img={mesas} alternate={false} alt={'nuestra cafeteria al aire libre'} title={'Cafeteria al aire libre'} info={'Cansado de haber raideado por 8 horas? Ven a tomar un juguito en nuestra cafeteria al aire libre, donde podras disfrutar del hermoso panorama de Empyreum!'} />
         <br/>
-        <ImgCard img={dummy} alternate={true} alt={'nuestro dummy'} title={'Cafeteria al aire libre'} info={'Quieres pegarle a algo? Claro que tenemos un dummy propio!'} />
+        <ImgCard img={dummy} alternate={true} alt={'nuestro dummy'} title={'Dummy'} info={'Quieres pegarle a algo? Claro que tenemos un dummy propio!'} />
         <br/>
         <ImgCard img={bar} alternate={false} alt={'bar'} title={'Bar'} info={'Perfecto para recibir djs y disfrutar del fin de semana (o no tan fin de semana)'} />
     </>

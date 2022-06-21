@@ -3,6 +3,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 7rem;
+    margin: 7rem auto;
     gap: 1.5rem;
 }
+
+/* footer {
+    font-weight: 500;
+    position: absolute;
+    bottom: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+} */

@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+  overflow-y: hidden;
 }
 
 .header {
@@ -15,30 +16,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.language-div {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 1rem;
-  display: flex;
-  flex-direction: row;
-}
-
-.language-separator {
-  height: auto;
-  width: 3px;
-  background-color: black;
-}
-
-.language-div__img {
-  height: calc(16px + 3vw);
-  filter: grayscale(1)
-}
-
-.language-div__img.active-language {
-  filter: grayscale(0)
 }
 
 .header__h1, .header__h2 {
@@ -67,45 +44,4 @@ section {
   padding: 1rem;
   padding-bottom: 2.5rem;
   overflow-x: clip;
-}
-
-/* @media (max-width: 1700px) {
-  .header__h1 {
-    font-size: 7rem;
-  }
-  .header__h2 {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  .header__h1 {
-    font-size: 5rem;
-  }
-  .header__h2 {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .header__h1 {
-    font-size: 4rem;
-  }
-  .header__h2 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 700px) {
-  .header__h1 {
-    font-size: 3rem;
-  }
-  .header__h2 {
-    font-size: 1rem;
-  }
-} */
-
-footer {
-  font-weight: 500;
-
 }

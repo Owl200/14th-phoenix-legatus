@@ -48,8 +48,8 @@ const PersonCard = (props) => {
         </div>
         <div className='person-card__info'>
             <h2>{data.name}</h2>
-            <h3>{data.phrase}</h3>
-            <br/>
+            <h3 className='person-card__info-phrase'>{data.phrase}</h3>
+            <div/>
             <ul className='person-card__ul'>
                 <li><span className='person-card__span'>Mis Jobs favoritos: </span>{data.jobs.join(', ')}</li>
                 <li><span className='person-card__span'>Mis intereses: </span>{data.interests.join(', ')}</li>

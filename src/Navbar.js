@@ -86,7 +86,7 @@ const Navbar = () => {
             <li><NavLink to='/' className='nav__list-item' activeClassName='nav__list-item--active'>Inicio</NavLink></li>
             <li><NavLink to='/about-us' className='nav__list-item' activeClassName='nav__list-item--active'>Conocenos</NavLink></li>
             <li><NavLink to='/house' className='nav__list-item' activeClassName='nav__list-item--active'>Casa</NavLink></li>
-            <li><NavLink to='/ranks' className='nav__list-item' activeClassName='nav__list-item--active'>Rangos</NavLink></li>
+            <li><NavLink to='/activities' className='nav__list-item' activeClassName='nav__list-item--active'>Actividades</NavLink></li>
             <li><NavLink to='/contact-us' className='nav__list-item' activeClassName='nav__list-item--active'>Contactanos</NavLink></li>
         </ul>
     </nav> :
@@ -111,7 +111,7 @@ const Navbar = () => {
             <NavLink to='/house' activeClassName='nav__list-mini--active' onClick={handleClick}>Casa</NavLink>
           </motion.li>
           <motion.li variants={liVariants}>
-            <NavLink to='/ranks' activeClassName='nav__list-mini--active' onClick={handleClick}>Rangos</NavLink>
+            <NavLink to='/activities' activeClassName='nav__list-mini--active' onClick={handleClick}>Actividades</NavLink>
           </motion.li>
           <motion.li variants={liVariants}>
             <NavLink to='/contact-us' activeClassName='nav__list-mini--active' onClick={handleClick}>Contactanos</NavLink>
