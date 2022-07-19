@@ -10,6 +10,7 @@ import laguna from './images/laguna.jpg'
 import kida from './images/kida1.png'
 import ryonia from './images/ryonia.png'
 import hans from './images/hans.png'
+import lilith from './images/lilith.webp'
 
 const About = () => {
   
@@ -36,6 +37,17 @@ const About = () => {
       raids: ['Nier Raids', 'Eden Raids', 'Ivalice Raids', 'Alphascape Raids'],
       description: `The world needs more love and care in it. I try to bring a little of both every day I'm on. If it is within my power to do so I will help you as best as I can. I enjoy raiding and endgame content. I like to say I adapt and learn quickly. Treasure maps are also a fun activity and glam is the true endgame. Smile and love those around you.`
     }, 
+    {      
+      thumbnail: lilith,
+      name: `Lilith D'igazi (Fawkes)`,
+      phrase: '"The reward for ambition too great... is self destruction."',
+      jobs: ['Black Mage', 'Dark Knight', 'Reaper'],
+      interests: ['Ultimates', 'Raids', 'Glamour'],
+      trials: [`The Seat of Sacrifice`, `TMB: Hades's Elegy`, `Containment Bay P1T6`],
+      dungeons: ['The Stone Vigil', 'Amarout', 'The Stigma Dreamscape'],
+      raids: ['The Second Coil of Bahamut - Turn 4', `Eden's Gate: Sepulture`, `Eden's Promise: Umbra`],
+      description: 'Refugiado de wow, llegué  por la historia y me quedé para convertirme en una leyenda.'
+    },
     {      
       thumbnail: luna,
       name: `Luna D'igazi (Fawkes)`,

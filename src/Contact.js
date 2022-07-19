@@ -41,9 +41,9 @@ const Contact = () => {
         <motion.a whileHover={{scale: 1.2}} whileTap={{scale: 1.3}} variants={linkVariants} href="https://www.facebook.com/14th-Phoenix-Legatus-103607949068747" target='_blank' rel='noreferrer'><img src={fb} alt="discord link" /></motion.a>
         <motion.a whileHover={{scale: 1.2}} whileTap={{scale: 1.3}} variants={linkVariants} href="https://na.finalfantasyxiv.com/lodestone/freecompany/9228157111458983655/" target='_blank' rel='noreferrer'><img src={xiv} alt="loadstone link" /></motion.a>
       </motion.div>
-      {/* <footer>
-        <p>Quieres tu propia pagina personalizada</p>
-      </footer> */}
+      <footer>
+        <p>Quieres tu propia pagina personalizada? Puedes encontrarme <a href='https://twitter.com/alan_mtz_dev' target='-blank' rel='noreferrer'>aqui</a>.</p>
+      </footer>
     </div>
   )
 }

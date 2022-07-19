@@ -1,5 +1,5 @@
 import React from 'react'
-import thumbnail from './images/thumb-inicio.png'
+import thumbnail from './images/thumb-inicio.webp'
 import { motion } from 'framer-motion'
 import './home.css'
 
