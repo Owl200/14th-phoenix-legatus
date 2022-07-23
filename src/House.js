@@ -1,12 +1,12 @@
 import React from 'react'
 import ImgCard from './ImgCard'
-import granja from './images/granja.png'
-import establo from './images/establo.png'
-import mesas from './images/mesas.png'
-import dummy from './images/dummy.png'
-import bar from './images/bar.png'
-import saucer from './images/saucer.png'
-import workshop from './images/workshop.png'
+import granja from './images/granja.webp'
+import establo from './images/establo.webp'
+import mesas from './images/mesas.webp'
+import dummy from './images/dummy.webp'
+import bar from './images/bar.webp'
+import saucer from './images/saucer.webp'
+import workshop from './images/workshop.webp'
 
 
 const House = () => {

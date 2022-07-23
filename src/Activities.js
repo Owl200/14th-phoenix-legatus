@@ -1,10 +1,10 @@
 import React from 'react'
 import ImgCard from './ImgCard'
-import daily from './images/daily.png'
-import farmeo from './images/farmeo.png'
-import mapas from './images/mapas.png'
-import ultimate from './images/ultimate.jpg'
-import unknown from './images/unknown.png'
+import daily from './images/daily.webp'
+import farmeo from './images/farmeo.webp'
+import mapas from './images/mapas.webp'
+import ultimate from './images/ultimate.webp'
+import unknown from './images/unknown.webp'
 
 const Activities = () => {
 
